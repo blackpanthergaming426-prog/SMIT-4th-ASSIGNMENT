@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+section{
+    background-image: url(./audio/download.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+header{
+    color: aliceblue;
+    background-image: url(./audio/header.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+/*  START-HEADER-SECTION */
+ nav{
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    display:  flex;
+    height: 50px;
+}
+.logo{
+    word-spacing: 7px ;
+}
+a{
+    border: 0px;
+    font-size: 21px;
+    color:cyan;
+    text-decoration: none;
+}
+a:hover{
+    color:blue ;
+}
+.links{
+    
+word-spacing: 50px;
+}
+      /* CLOSE-HEADER-SECTION */
+       /* MAIN-SECTION-START */
+ section{
+           margin-top: 40px;
+ }
+ .sound{
+    color: aliceblue;
+    background-color: blue;
+    padding: 12px;
+    height: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 19px;
+ }
+ .video{
+display: flex;
+justify-content: center;
+ }
+ .video1{
+    margin: 0px 180px;
+    padding: 67px;
+}
+.audio1{
+    text-align: center;
+}.audio1>audio{
+    width: 650px;
+}
+      /* START-FOTTER-SECTION */
+      footer{
+        
+    color: beige;
+    font-style: italic;
+    text-align: center;
+    height: 73px;
+    background-color: black;
+      }
